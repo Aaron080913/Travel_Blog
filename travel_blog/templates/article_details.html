@@ -7,15 +7,20 @@
 <h1>{{ post.title }}</h1>
 <small>By: {{ post.author.first_name }} {{post.author.last_name }} - {{ post.post_date }} - 
     {% if user.is_authenticated %}
-    <small><a href="{% url 'update_post' post.pk %}">(Edit)</a><br/>
+    <small><a href="{% url 'update_post' post.pk %}">(Edit)</a>
+        <br/><br/>
+        <a href="{% url 'delete_post' post.pk %}" class="btn btn-danger">Delete</a></a>
 
 
 <br/><br/>
 
-<a href="{% url 'delete_post' post.pk %}">(Delete)</a>
-<a href="{% url 'home' %}" class="btn btn-primary">Back</a>
+
+<br/><br/>
+
 {% endif %}
 
-{{ post.body }}
+{{ post.body|safe }}
+<br/><br/>
+<a href="{% url 'home' %}" class="btn btn-primary">Back</a>
 
 {% endblock %}
