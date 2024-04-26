@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    
+{% if category_posts%}
+<h1>{{ cats }}</h1>
+<ul></ul>
+{% for post in category_posts %}
+    
+{% endfor %}
+</ul>
+{% else%}
+<h2>Sorry this pge does no excist</h2>
+{% endif %}
+category_posts
+
+
+{% endblock %}
