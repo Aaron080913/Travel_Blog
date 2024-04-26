@@ -3,16 +3,20 @@
 {% block content %}
 
     
+{% if user.is_authenticated %}
+    <h1>Update Post...</h1>
+    <br/><br/>
+    <div class="mb-3">
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button class="btn btn-primary">Update</button>
+    </form>
+    </div>
+{% else %}
 
-<h1>Update Post...</h1>
-<br/><br/>
-<div class="mb-3">
-<form method="POST">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button class="btn btn-primary">Update</button>
-</form>
-</div>
+Please Login to Edit Posts on this page.
 
+{% endif %}
 
 {% endblock %}
