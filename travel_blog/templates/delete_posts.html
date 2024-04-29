@@ -4,18 +4,25 @@
 
     
 {% if user.is_authenticated %}
-    <h1>Delete Post...</h1>
-    <br/><br/>
-    <h3>Delete: {{ post.title }}</h3>
-    <br/>
-    <div class="mb-3">
-    <form method="POST">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <strong>Are you sure??!</strong><br/><br/>
-        <button class="btn btn-danger">>Delete Post</button>
-    </form>
-    </div>
+    {% if user.id == post.author.id %}
+        <h1>Delete Post...</h1>
+        <br/><br/>
+        <h3>Delete: {{ post.title }}</h3>
+        <br/>
+        <div class="mb-3">
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <strong>Are you sure??!</strong><br/><br/>
+            <button class="btn btn-danger">>Delete Post</button>
+        </form>
+        </div>
+    {% else %}
+
+        Please Login to Delete Posts on this page.
+        
+    {% endif %}
+        
 {% else %}
 
 Please Login to Delete Posts on this page.

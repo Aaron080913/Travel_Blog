@@ -13,8 +13,10 @@
       {{ post.author.last_name }}
        - {{ post.post_date }}  
     {% if user.is_authenticated %}
-    - <small><a href="{% url 'update_post' post.pk %}" class="btn btn-primary">Edit</a>
-    <a href="{% url 'delete_post' post.pk %}" class="btn btn-danger">Delete</a>
+        {% if user.id == post.author.id %}
+            - <small><a href="{% url 'update_post' post.pk %}" class="btn btn-primary">Edit</a>
+            <a href="{% url 'delete_post' post.pk %}" class="btn btn-danger">Delete</a>
+        {% endif %}
     {% endif %}
 </small><br/>
 {{ post.body|slice:":200"|safe }}</li>
