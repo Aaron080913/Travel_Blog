@@ -9,8 +9,11 @@ from .forms import SignUpForm, EditProfileForm
 
 class PasswordsChangeView(PasswordChangeView):
     form_class = PasswordChangeForm
-    template_name = 'registration/change-password.html'
-    success_url = reverse_lazy('home')
+    template_name = 'registration/change_password.html'
+    success_url = reverse_lazy('password_success')
+
+def password_success(request):
+    return render(request, 'registration/password_success.html', {})
 
 
 
