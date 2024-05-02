@@ -5,7 +5,7 @@
 {% block content %}
 
 
-<h1>{{ post.title }} - {{ post.author.id }} </h1>
+<h1>{{ post.title }}  </h1>
 <small>By: {{ post.author.first_name }}
     {{post.author.last_name }} - 
     {{ post.post_date }}
@@ -51,5 +51,35 @@ method="POST">
         - {{ total_likes }} likes
 </form>
 
+<br/><br/>
+
+<div class="card mb-3" >
+    <div class="row g-0">
+      <div class="col-md-2">
+        <img src="{{ post.author.profile.profile_pic.url }}" class="img-fluid rounded-start" width=200 height=200>
+      </div>
+      <div class="col-md-10">
+        <div class="card-body">
+          <h5 class="card-title">
+            {{ post.author.first_name }}
+            {{post.author.last_name }}</h5>
+          <p class="small text-body-secondary">
+            {% if post.author.profile.website_url %}
+                <a href=" {{ post.author.profile.website_url}}">Website</a> 
+            {% endif %}
+            {% if post.author.profile.facebook_url %}
+               | <a href=" {{ post.author.profile.facebook_url }}">Facebook</a> 
+            {% endif %}
+            {% if post.author.profile.instagram_url %}
+               | <a href=" {{ post.author.profile.instagram_url }}">Instagram</a>
+            {% endif %}
+          </p>  
+          <p class="card-text">
+            {{ post.author.profile.bio }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 {% endblock %}
