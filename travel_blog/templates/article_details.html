@@ -22,18 +22,15 @@
 
 
 
-<br/><br/>
+<br/>
 {% if post.header_image %}    
 <img src="{{ post.header_image.url }}">
 {% endif %}
-<br/>
-<br/>
+<br/><br/>
 {{ post.body|safe }}
-<br/><br/>
-
-<br/><br/>
-<hr>
 <br/>
+
+<hr>
 <form action="{% url 'like_post' post.pk %}"
 method="POST">
     {% csrf_token %}
@@ -50,30 +47,7 @@ method="POST">
 {% endif %}
         - {{ total_likes }} likes
 </form>
-
-<br/><br/>
 <hr>
-<h2>Comments</h2>
-<br/>
-
-{% if not post.comments.all %}
-  No Comments yet<a href="#">Add One!</a>
-{% else %}
-    {% for comment in post.comments.all %}
-      <strong>
-        {{ comment.name }} -
-        {{ comment.date_added }}
-      </strong>
-      <br/>
-      {{ comment.body }}
-      <br/><br/>
-      
-    {% endfor %}  
-{% endif %}
-<hr>
-
-<br/><br/>
-
 <div class="card mb-3" >
     <div class="row g-0">
       <div class="col-md-2">
@@ -113,4 +87,28 @@ method="POST">
     </div>
   </div>
 
+  <hr>
+<h2>Comments</h2>
+
+
+{% if not post.comments.all %}
+  No Comments yet<a href="{% url 'add_comment' post.pk %}"> Add One!</a>
+{% else %}
+<a href="{% url 'add_comment' post.pk %}">Add Comment</a></a>
+<br/><br/>
+    {% for comment in post.comments.all %}
+      <strong>
+        {{ comment.name }} -
+        {{ comment.date_added }}
+      </strong>
+      <br/>
+      {{ comment.body }}
+      <br/><br/>
+      
+      
+    {% endfor %}  
+{% endif %}
+<br/>
+
+<br/><br/>
 {% endblock %}
