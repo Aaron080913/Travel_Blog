@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %}Edit Profile Page{% endblock %}
+{% block content %}
+
+    
+{% if user.is_authenticated %}
+    {% if user.id == profile.user.id %}
+        <h1>Edit Profile Page...</h1>
+        <br/><br/>
+        <div class="mb-3">
+            <form method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button class="btn btn-primary">Update Profile Page</button>
+            </form>
+        </div>
+
+        
+
+    {% else %}
+
+    You Can only Edit your own Profile.
+    {% endif %}
+
+{% else %}  
+Please Login to Add Posts on this page.
+{% endif %}   
+   
+
+
+
+{% endblock %}
