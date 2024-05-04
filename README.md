@@ -87,454 +87,94 @@ All functionality and development of this project were managed using GitHub whic
 
 * From the dropdown menu, none registered users can access the posts that have already been made by clicking on the category associated to the post.<br>
 
-### Post Detail Page - Top
+### Logged In DropDown Menu
 
-![Post Detail Page - Top](./assets/readme/features/tasty_blog_post_detail_1_page.jpg)
+![Logged In DropDown Menu](<media/images/Read-me_pics/Logged In DropDown Menu.jpeg>)
 
-* At the top of the Post Details Page, users can see the post's main
-image and they can also have access to information about the post. The
-post information includes category, recipe name, rating stars,
-time to prepare, author name and image, posted date and the
-option to like/unlike the post. It will also show how many likes and
-comments the post has received.<br>
+* Once the User is logged in, they will see that the dropdown menu has changed to include details only available to members, and gives the User the ability to Log Out.<br>
 
-### Post Detail Page - Steps
+### Add A Category Page
 
-![Post Detail Page - Steps](./assets/readme/features/tasty_blog_post_detail_2_page.jpg)
+![Add A Category Page](<media/images/Read-me_pics/Add A Category Page.jpeg>)
 
-* In this page section, users can read the ingredients and follow the steps to complete the recipe.<br>
+* On The Category Page you have got the ability to create a category so that you can add posts and link them.<br>
 
-### Post Detail Page - Comments
+### Posts DropDown
 
-![Post Detail Page - Comments](./assets/readme/features/tasty_blog_post_detail_comments_page.jpg)
+![Posts DropDown Menu](<media/images/Read-me_pics/DropDown Post.jpeg>)
 
-* At the bottom of this page, users can read the comments posted by other users. If the user is logged in or is a 
-superuser they have access to the buttons for deleting or updating comments.
+* Lets the User Add A post, or so that they can view all of the posts in a list view.<br>
 
-### Edit Comments Page
+### Add Blog Post Page
 
-![Edit Comments Page](./assets/readme/features/tasty_blog_edit_comments_page.jpg)
+![Add Blog Post Page](media/images/Read-me_pics/Add_Blog_Post_Page.jpeg)
 
-* On this page, users are allowed to comment, delete and edit their own post comments. The website superuser can 
-  delete or update any comments on the blog without having to access the admin panel.
+* Lets the User Add A Blog Post, and can function the post.
 
-### Contact Page
+### Update Blog Post Page
 
-![Contact Page](./assets/readme/features/tasty_blog_contact_page.jpg)<br><br>
+![Update Blog Post Page](media/images/Read-me_pics/Update_Page_View.jpeg)
 
-* The Contact Page allows users to have access to the Tasty blog
-contact details. Users can also send an email to info@tastyblog by
-using the contact form available on this page.
+* On this page, users are allowed to edit their own posts. The website superuser can update any post on the blog with having to access the admin panel.
 
-### Categories Page
+### Delete Blog Post Page
 
-![Categories Page ](./assets/readme/features/tasty_blog_categories_page.jpg)<br><br>
+![Delete Blog Post Page](media/images/Read-me_pics/Delete_Post_Page.jpeg)
 
-* On the Categories Page, users can see the categories available in the blog and filter the posts by category.
+* On this page, users are allowed to Delete their own posts. The website superuser can 
+  delete any post on the blog with having to access the admin panel.
 
-### Categories Results
+### Blog Post Page
 
-![Categories Results Page](./assets/readme/features/tasty_blog_categories_results_page.jpg)
+![Blog Post Page](media/images/Read-me_pics/Post_View_Page.jpeg)
 
-* On the Categories Results Page, users can access the post filtered by the chosen category.
-  
-### Books Page
+* On this page, users are allowed to access posts. The User can see any images attatched to the post aswell as any likes and comments.
 
-![Books Page](./assets/readme/features/tasty_blog_books_page.jpg)
+### Profiles DropDown
 
-* On this page, registered users can see favourite books posted by other users. If they had already published 
-  a post they are allowed to edit or delete their own posts
+![Profiles DropDown](<media/images/Read-me_pics/Profile Dropdown.jpeg>)
 
-### Add/Edit Books Page
+* On this DropDown, it gives the user the option to change different aspects of their own profil aswell as a profile view.
 
-![Add/Edit Book Page](./assets/readme/features/tasty_blog_add_book_page.jpg)
+### Profiles Settings Edit
 
-On this page, registered users can fill out the form to add or edit a post with their favourite cookbooks.
+![Profiles Settings Edit](media/images/Read-me_pics/Settings_page.jpeg)
 
-### Search Box
+* This lets you change the log in settings for Profiles.
 
-![Search Box](./assets/readme/features/tasty_blog_search_page.jpg)
+### Profiles Settings Edit
 
-* In this box, the users can search by inputting a keyword in the search tool. This allows the user to try and find 
-  the recipe they are looking for.
+![Profiles Edit](media/images/Read-me_pics/Edit_Profile.jpeg)
 
-### Search Results Page
+* This lets you change the Profile, so that A Bio or a picture can be added, these are also present at the bottom of the blog posts.
 
-![Search Results Page](./assets/readme/features/tasty_blog_search_results_page.jpg)
+### Profiles View
 
-* On the Search Results Page, users can see the recipes found by their search.  When their recipe is located, the user can go to the 
-  Post Details Page by clicking on the card result.
+![Profiles View](media/images/Read-me_pics/User_Profile.jpeg)
 
-### Search Results - Input Empty
-
-![Search Results - Input Empty](./assets/readme/features/tasty_blog_search_results_empty_page.jpg)
-
-* On the Search Results Page - Input Empty, users will see this message if their search returns with an empty input.
-
-### Search Results - No Results Found
-
-![Search Results - No Results Found](./assets/readme/features/tasty_blog_search_results_null_page.jpg)
-
-* On the Search Results Page - No Results Found, users will see this message if there is nothing found for the search.
-
-### Signup Page
-
-![Signup Page](./assets/readme/features/tasty_blog_signup_page.jpg)
-
-* On the Signup Page, a new user can sign up for the Tasty Blog website by filling out and then submitting the form.
-
-### Login Page
-
-![Login Page](./assets/readme/features/tasty_blog_login_page.jpg)
-
-* On the Login Page, users can log in to the website by inputting the username and password and have access 
-  to website services for a user registered.
-
-### Logout Page
-
-![Logout Page](./assets/readme/features/tasty_blog_logout_page.jpg)
-
-* On the Logout Page, users can confirm that they wish to exit the website.
-
-### User Profile Page
-
-![User Profile Page](./assets/readme/features/tasty_blog_user_profile_page.jpg)
-
-* On the Profile Page, users have access to their own information and can update their user name, email and profile image.
-
-### Navbar
-
-![Navbar](./assets/readme/features/tasty_blog_navbar.jpg)
-
-* The navigation bar is present at the top of every page and houses all links to the various other pages.
-* The options to Register or Log in will change to the option to log out once a user has logged in.
-* Once a user has signed in, more options such as profile page and user image will be available in the navbar.
-* A search icon is nested in the navbar and once clicked it will open the search box.
-* The navbar is fully responsive, collapsing into a hamburger menu when the screen size becomes smaller.
-
-![Navbar](./assets/readme/features/tasty_blog_navbar_dropdown_menu.jpg)
-* In the navbar users can access the categories list by clicking on the dropdown menu.
-
-### Footer
-
-![Footer](./assets/readme/features/tasty_blog_footer.jpg)
-* On the website footer, users can see basic information about the blog such as contact, social media, 
-  copyright, and a quote about food recipes.
-
-## Messages and Interaction With Users
-
-* Some interactive messages were added to the project to make the navigation on the website easier and to improve the
-user's experience.
-
-### Sign up
-
-![Sign up](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_signup.jpg)
-
-* When users sign up to the website they will see a message at the top of the page saying "Successfully signed in as
-(username)".<br>
-
-### Login
-
-![Login](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_login.jpg)
-
-* When users sign in to the website they will see a message at the top of the page saying "Successfully signed in as
-(username)".<br>
-
-### Logout
-
-![Logout](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_logout.jpg)
-
-* When users log out of the website they will see a message at the top of the page saying "You have signed out".<br>
-  
-### Profile Update
-
-![Profile Update](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_profile_update.jpg)
-
-* When users update their profile they will see a message at the top of the page saying that their account has been updated.<br>
-
-### Like Post
-
-![Like Post](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_like_post.jpg)
-* *When users are logged in to the website they can like a post and they will see a message at the top of the page 
-  saying "You have liked this post".<br>
-
-### Unlike Post
-
-![Unlike Post](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_unlike_post.jpg)
-
-* When users are logged in to the website they can unlike a post that has been liked by the user and they will see a message 
-  at the top of the page saying "You have unliked this post".<br>
-
-### Comment Post
-
-![Comment Post](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_comment_sent_1.jpg)
-
-* When users are logged in to the website they can comment on a post and after they submit the comment they will see a 
-  message at the top of the page saying "Your comment was sent successfully and is awaiting approval".<br>
-
-### Comment Post - 2
-
-![Comment Post - 2](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_comment_sent_2.jpg)
-
-* After a user submits a comment, they will see a message over the input comment saying "Thanks (username). Your 
-  comment is awaiting approval! <br>
-
-### Delete/Edit Comment
-
-![Delete Comment](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_comment_delete_1.jpg)
-
-* When users are logged in to the website and they have previously posted a comment or if the user is a superuser they will see the 
-Delete and Edit buttons at the bottom of comments.<br>
-
-### Delete Comment - 1
-
-![Delete Comment - 2](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_comment_delete_2.jpg)
-
-* If they wish to delete their comment, they can press the button Delete and a Bootstrap box model will pop up with the message 
-  "Are you sure you want to delete your comment?".<br>
-
-### Delete Comment - 2
-
-![Delete Comment - 3](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_comment_delete_3.jpg)
-
-* After pressing the Delete button again inside the Bootstrap box model they will see a message on the 
-  top of the page, "Your comment was deleted successfully".<br>
-
-### Edit Comment
-
-![Edit Comment](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_comment_edit.jpg)
-
-* After pressing the Update, users will see a message on the top of the page, "The comment was successfully updated".<br>
-
-### Email Sent - Success
-
-![Email Sent - Success](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_email_sent_2.jpg)
-
-* After users submit the form to info@tastyblog successfully, they will see the message, "Thanks for your email! 
-  We will contact you as soon as possible".<br>
-
-### Email Sent - Failed
-
-![Email Sent - Failed](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_email_sent.jpg)
-
-* If the email was not submitted successfully, users will see the message, "Sorry, something went wrong! 
-  Try to submit the email again".<br>
-
-### Add Book
-
-![Add Book](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_add_book.jpg)  
-
-* When users are logged in to the website they can publish a post with a favourite cookbook and after they submit the 
-post they will see a message at the top of the page saying "Your post was sent successfully and is awaiting approval".<br>
-
-### Edit Book
-
-![Edit Book](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_book_edit.jpg)  
-* When users are logged in to the website they can edit their own previously published posts and they will see the message 
-  "The post was successfully updated" after pressing the Submit button.<br>
-
-### Delete Book 1 
-
-![Delete Book 1](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_book_delete_2.jpg)
-When users are logged in to the website and they wish to delete their posts, they can press the button Delete and a 
-Bootstrap box model will pop up with the message "Are you sure you want to delete your post?".<br>  
-
-### Delete Book 2
-
-![Delete Book 2](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_book_delete.jpg)  
-
-* After pressing the Delete button again inside the Bootstrap box model they will see a message on the 
-  top of the page, "Your post was deleted successfully".<br>
-
-### Empty Search
-
-![Empty Search](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_profile_empty_search.jpg)
-
-* Any user can search for a keyword using the input search and if the search is done with an empty input they will see a
-  message saying, "You forgot to search a recipe. Please try searching again.".<br>
-
-### No Search Found
-
-![No Search Found](./assets/readme/features/interactive_messages/tasty_blog_user_interaction_profile_no_search_found.jpg)
-
-* And if there are no results matching or similar to the keyword, the user will see the following message, "We are sorry. 
-  There are no searches for (keyword) on the website. Try the search again".<br>
-
-## Admin Panel/Superuser
-![No Search Found](./assets/readme/extras/tasty_blog_superuser.jpg)
-
-* On the Admin Panel, as an admin/superuser I have full access to CRUD functionality so I can view, create, edit and
-delete the following ones:
-1. Posts
-2. Comments
-3. Author
-4. Categories
-5. Profiles
-6. Books
-   
-*As admin/superuser I can also approve comments, approve posts and change the status and give other permissions to the users.<br>
-
-## Technologies Used
-
-### Languages Used
-
-* [HTML 5](https://en.wikipedia.org/wiki/HTML/)
-* [CSS 3](https://en.wikipedia.org/wiki/CSS)
-* [JavaScript](https://www.javascript.com/)
-* [Django](https://www.python.org/)
-* [Python](https://www.djangoproject.com/)
-
-#### Django Packages
-
-* [Gunicorn](https://gunicorn.org/)<br>
-   As the server for Heroku
-* [Cloudinary](https://cloudinary.com/)<br>
-   Was used to host the static files and media
-* [Dj_database_url](https://pypi.org/project/dj-database-url/)<br>
-   To parse the database URL from the environment variables in Heroku
-* [Psycopg2](https://pypi.org/project/psycopg2/)<br>
-   As an adaptor for Python and PostgreSQL databases
-* [Summernote](https://summernote.org/)<br>
-   As a text editor
-* [Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html)<br>
-   For authentication, registration, account
-   management
-* [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)<br>
-   To style the forms
-
-### Frameworks - Libraries - Programs Used
-
-* [Bootstrap](https://getbootstrap.com/)<br>
-   Was used to style the website, add responsiveness and interactivity
-* [Jquery](https://jquery.com/)<br>
-   All the scripts were written using jquery library
-* [Git](https://git-scm.com/)<br>
-   Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub
-* [GitHub](https://github.com/)<br>
-   GitHub is used to store the project's code after being pushed from Git
-* [Heroku](https://id.heroku.com)<br>
-   Heroku was used to deploy the live project
-* [PostgreSQL](https://www.postgresql.org/)<br>
-   Database used through heroku.
-* [VSCode](https://code.visualstudio.com/)<br>
-   VSCode was used to create and edit the website
-* [Lucidchart](https://lucid.app/)<br>
-   Lucidchart was used to create the database diagram
-* [PEP8](http://pep8online.com/)<br>
-   PEP8 was used to validate all the Python code
-* [W3C - HTML](https://validator.w3.org/)<br>
-   W3C- HTML was used to validate all the HTML code
-* [W3C - CSS](https://jigsaw.w3.org/css-validator/)<br>
-   W3C - CSS was used to validate the CSS code
-* [Fontawesome](https://fontawesome.com/)<br>
-   To add icons to the website
-* [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)<br>
-   To check App responsiveness and debugging
-* [Google Fonts](https://fonts.google.com/)<br>
-   To add the 2 fonts that were used throughout the project
-* [Balsamiq](https://balsamiq.com/)<br>
-   To build the wireframes for the project
-* [PIXLR](https://pixlr.com)<br>
-   To convert the images to webp format
-* [CANVA](https://www.canva.com/)<br>
-   To build the logos for the project
-* [Coolors](https://coolors.co/)<br>
-   To build the colour palette of the project
-* [Emailjs](https://www.emailjs.com/)<br>
-   To send emails from the contact form
+* This lets you View your Profile.![Lighthouse](media/images/Read-me_pics/Lighthouse.jpeg)
 
 ### Testing
 
 Testing results [here](TESTING.md)
 
-## Creating the Django app
-
-1. Go to the Code Institute Gitpod Full Template [Template](https://github.com/Code-Institute-Org/gitpod-full-template)
-2. Click on Use This Template
-3. Once the template is available in your repository click on Gitpod
-4. When the image for the template and the Gitpod are ready open a new terminal to start a new Django App
-5. Install Django and gunicorn: `pip3 install django gunicorn`
-6. Install supporting database libraries dj_database_url and psycopg2 library: `pip3 install dj_database_url psycopg2`
-7. Create file for requirements: in the terminal window type `pip freeze --local > requirements.txt`
-8. Create project: in the terminal window type django-admin startproject your_project_name
-9. Create app: in the terminal window type python3 manage.py startapp your_app_name
-10. Add app to the list of installed apps in settings.py file: you_app_name
-11. Migrate changes: in the terminal window type python3 manage.py migrate
-12. Run the server to test if the app is installed, in the terminal window type python3 manage.py runserver
-13. If the app has been installed correctly the window will display The install worked successfully! Congratulations!
-
-## Deployment of This Project
-
-* This site was deployed by completing the following steps:
-
-1. Log in to [Heroku](https://id.heroku.com) or create an account
-2. On the main page click the button labelled New in the top right corner and from the drop-down menu select Create New
-App
-3. You must enter a unique app name
-4. Next select your region
-5. Click on the Create App button
-6. Click in resources and select Heroku Postgres database
-7. Click Reveal Config Vars and add a new record with SECRET_KEY
-8. Click Reveal Config Vars and add a new record with the `CLOUDINARY_URL`
-9. Click Reveal Config Vars and add a new record with the `DISABLE_COLLECTSTATIC = 1`
-10. The next page is the project’s Deploy Tab. Click on the Settings Tab and scroll down to Config Vars
-11. Next, scroll down to the Buildpack section click Add Buildpack select python and click Save Changes
-12. Scroll to the top of the page and choose the Deploy tab
-13. Select Github as the deployment method
-14. Confirm you want to connect to GitHub
-15. Search for the repository name and click the connect button
-16. Scroll to the bottom of the deploy page and select the preferred deployment type
-17. Click either Enable Automatic Deploys for automatic deployment when you push updates to Github
-
-## Final Deployment 
-
-1. Create a runtime.txt `python-3.8.13`
-2. Create a Procfile `web: gunicorn your_project_name.wsgi`
-3. When development is complete change the debug setting to: `DEBUG = False` in settings.py
-4. In this project the summernote editor was used so for this to work in Heroku add: `X_FRAME_OPTIONS = SAMEORIGIN `to
-   settings.py.
-5. In Heroku settings, delete the config vars for `DISABLE_COLLECTSTATIC = 1`
-
-## Forking This Project
-
-* Fork this project by following the steps:
-
-1. Open [GitHub](https://github.com/PedroCristo/portfolio_project_4)
-2. Find the 'Fork' button at the top right of the page
-3. Once you click the button the fork will be in your repository
-
-## Cloning This Project
-
-* Clone this project by following the steps:
-
-1. Open [GitHub](https://github.com/PedroCristo/portfolio_project_4)
-2. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order
-to copy the URL
-3. Once you click the button the fork will be in your repository
-4. Open a new terminal
-5. Change the current working directory to the location that you want the cloned directory
-6. Type 'git clone' and paste the URL copied in step 3
-7. Press 'Enter' and the project is cloned
-
 ## Credits
 
 ### Content
 
-* All food recipes were taken from [BBC Goodfood](https://www.bbcgoodfood.com/recipes)
-* The cookbook’s information and images were sourced from [Eason’s](https://www.easons.com/)
-* The images were taken from [Unsplash](https://unsplash.com/)
-* The Tasty Blog logos and favicon are my own design and build
+* Nav Bar And Styling of forms can be found from Bootsrap [Bootstrap]('https://getbootstrap.com/')
+* The Picture used in the Hong Kong Page was sourced from [Hong Kong]('https://www.bing.com/images/search?view=detailV2&ccid=%2bBeTKEtd&id=662F9F90BCC23E4B6036931A144465EFC7C0BEB1&thid=OIP.-BeTKEtdXxdu6OePNqE6ngHaDK&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.f81793284b5d5f176ee8e78f36a13a9e%3frik%3dsb7Ax%252b9lRBQakw%26riu%3dhttp%253a%252f%252fupload.wikimedia.org%252fwikipedia%252fcommons%252f1%252f18%252fHong_Kong_Night_Skyline.jpg%26ehk%3dYeHA8V9x%252bFivbEEkcYT0ddsRduo86nODrI0062%252bSE5c%253d%26risl%3d1%26pid%3dImgRaw%26r%3d0&exph=2000&expw=4670&q=hongkong&simid=608027645965578457&FORM=IRPRST&ck=C25E3628A1DECDB2E8281EA484BC182A&selectedIndex=1&itb=0')
+* The images were taken for New York are sourced from [New York]('https://www.bing.com/images/search?view=detailV2&ccid=v3VfcNBy&id=2B479EF50976140ECF4D34DBC54E402E8C5C009E&thid=OIP.v3VfcNByfpqv4OTwpHqMDQHaM9&mediaurl=https%3a%2f%2fmostbeautifulpicture.com%2fwp-content%2fuploads%2f2016%2f09%2fEmpire-State-Building-New-York-1-585x1024.jpeg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.bf755f70d0727e9aafe0e4f0a47a8c0d%3frik%3dngBcjC5ATsXbNA%26pid%3dImgRaw%26r%3d0&exph=1024&expw=585&q=new+york&simid=607998659265510619&FORM=IRPRST&ck=FDB8F03018A42A58A0F3967403B44570&selectedIndex=3&itb=0g')
+* The Image Used In The Kenya Post was sourced from [Kenya]('https://www.tripadvisor.co.uk/Attraction_Review-g294207-d25401985-Reviews-Tishmac_Safaris-Nairobi.html')
+* The Image Used for the Almeria Post was sourced from [Almeria]('http://www.weeky.es/la-catedral-de-almeria-fortaleza/')
+* The Image Used for Krabi Post was sourced from [Krabi]('https://blog.easyregistry.com.au/6-amazing-yet-affordable-honeymoon-destinations-for-australian-couples/')
+* The Background Image from the home screen was sourced from [home_screen]('https://www.bing.com/images/search?view=detailV2&ccid=VEvTuMNY&id=7DC98F8E91A2DCBCB4D204D3B86A3598DD3B4A06&thid=OIP.VEvTuMNY6VnbjC9hXgmoVwHaEK&mediaurl=https%3a%2f%2fstylecaster.com%2fwp-content%2fuploads%2f2016%2f09%2ftravel.jpg%3fresize%3d282&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.544bd3b8c358e959db8c2f615e09a857%3frik%3dBko73Zg1arjTBA%26pid%3dImgRaw%26r%3d0&exph=540&expw=960&q=travel&simid=608034105602871781&FORM=IRPRST&ck=C8BCF698BA178A27607ADC52FBAEED74&selectedIndex=9&itb=0')
 
 ### Information Sources / Resources
 
-* [W3Schools - Python](https://www.w3schools.com/python/)
+* [code.my](https://codemy.com/)
 * [Stack Overflow](https://stackoverflow.com/)
-* [Scrimba - Pyhton](https://scrimba.com/learn/python)
 
-## Special Thanks
-
-* Special thanks to my mentor Sandeep Aggarwal, my colleagues at Code Institute, Kasia Bogucka, and Mairéad Gillic for
-their assistance throughout this project.
 
 
 
