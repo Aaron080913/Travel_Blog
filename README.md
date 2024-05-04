@@ -5,85 +5,7 @@ This project is a Full Stack website built using the Django framework. Travel_Bl
 like/unlike a post and comment on a post. They can also share their favourite Holiday destinations by adding a post 
 and upload or update their user image and details.
 
-[Live Project Here](https://tasty-blog-portfolio-project-4.herokuapp.com/)
-
-<p align="center"><img src="./assets/readme/features/tasty_blog_responsiveness.jpg"
-        alt="Tasty Blog webpage on multiple devices"></p>
-
-README Table Content
-
-- [Tasty Blog - Introduction](#tasty-blog---introduction)
-  - [User Experience - UX](#user-experience---ux)
-    - [User Stories](#user-stories)
-    - [Agile Methodology](#agile-methodology)
-    - [The Scope](#the-scope)
-      - [Main Site Goals](#main-site-goals)
-  - [Design](#design)
-      - [Colours](#colours)
-      - [Typography](#typography)
-      - [Imagery](#imagery)
-    - [Wireframes](#wireframes)
-  - [Database Diagram](#database-diagram)
-  - [Features](#features)
-    - [Home Page](#home-page)
-    - [Home Page - Highlight Posts](#home-page---highlight-posts)
-    - [About Page](#about-page)
-    - [Blog Page](#blog-page)
-    - [Post Detail Page - Top](#post-detail-page---top)
-    - [Post Detail Page - Steps](#post-detail-page---steps)
-    - [Post Detail Page - Comments](#post-detail-page---comments)
-    - [Edit Comments Page](#edit-comments-page)
-    - [Contact Page](#contact-page)
-    - [Categories Page](#categories-page)
-    - [Categories Results](#categories-results)
-    - [Books Page](#books-page)
-    - [Add/Edit Books Page](#addedit-books-page)
-    - [Search Box](#search-box)
-    - [Search Results Page](#search-results-page)
-    - [Search Results - Input Empty](#search-results---input-empty)
-    - [Search Results - No Results Found](#search-results---no-results-found)
-    - [Signup Page](#signup-page)
-    - [Login Page](#login-page)
-    - [Logout Page](#logout-page)
-    - [User Profile Page](#user-profile-page)
-    - [Navbar](#navbar)
-    - [Footer](#footer)
-  - [Messages and Interaction With Users](#messages-and-interaction-with-users)
-    - [Sign up](#sign-up)
-    - [Login](#login)
-    - [Logout](#logout)
-    - [Profile Update](#profile-update)
-    - [Like Post](#like-post)
-    - [Unlike Post](#unlike-post)
-    - [Comment Post](#comment-post)
-    - [Comment Post - 2](#comment-post---2)
-    - [Delete/Edit Comment](#deleteedit-comment)
-    - [Delete Comment - 1](#delete-comment---1)
-    - [Delete Comment - 2](#delete-comment---2)
-    - [Edit Comment](#edit-comment)
-    - [Email Sent - Success](#email-sent---success)
-    - [Email Sent - Failed](#email-sent---failed)
-    - [Add Book](#add-book)
-    - [Edit Book](#edit-book)
-    - [Delete Book 1](#delete-book-1)
-    - [Delete Book 2](#delete-book-2)
-    - [Empty Search](#empty-search)
-    - [No Search Found](#no-search-found)
-  - [Admin Panel/Superuser](#admin-panelsuperuser)
-  - [Technologies Used](#technologies-used)
-    - [Languages Used](#languages-used)
-      - [Django Packages](#django-packages)
-    - [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
-    - [Testing](#testing)
-  - [Creating the Django app](#creating-the-django-app)
-  - [Deployment of This Project](#deployment-of-this-project)
-  - [Final Deployment](#final-deployment)
-  - [Forking This Project](#forking-this-project)
-  - [Cloning This Project](#cloning-this-project)
-  - [Credits](#credits)
-    - [Content](#content)
-    - [Information Sources / Resources](#information-sources--resources)
-  - [Special Thanks](#special-thanks)
+[Live Project Here](https://travel-blog-1-ac4a8d6c6af6.herokuapp.com/)
 
 ## User Experience - UX
 
@@ -92,34 +14,30 @@ README Table Content
 * As a website user, I can:
 
 1. Navigate around the site and easily view the desired content.
-2. View a list of recipes and choose accordingly.
-3. Search recipes to find specific recipes.
-4. Click on post to read the recipe details.
-5. Register for an account to avail of the services offered to members.
-6. View the number of likes on a recipe thereby showing which is most popular.
-7. View comments on recipes so that I can read other users opinions.
+2. View a list of Blog Posts from the categories section and choose accordingly.
+3. Click on the posts to read the author details & bio.
+4. Register for an account to be able to post.
+5. View the number of likes on a post thereby showing which is most popular.
+6. View comments on recipes so that I can read other users opinions.
 
 * As logged in website user, I can:
 
-1. Like/unlike recipes marking the recipes I enjoyed.
-2. Comment on recipes and give my opinion about the posts.
-3. Delete my previous comments.
+1. Like/unlike A post marking the destinations I would like to visit.
+2. Comment on posts and give my opinion .
+3. Delete my previous posts.
 4. Manage my profile by updating my details and user image.
-5. Share my favourites cookbooks by posting them on the Books Page.
-6. Edit my favourite cookbook posted previously.
-7. Delete my favourite cookbook posted previously.
-8. Logout from the website.
+5. Edit my previously posted blogs.
+6. Logout from the website.
+7. Add A category to be posted too.
 
 * As a website superuser, I can:
 
-1. Create and publish a new recipe.
-2. Create draft recipe posts that can be reviewed and finalised later.
-3. Create a new user, recipes, author and categories.
-4. Delete user, recipes, author, categories and comments.
-5. Approve user's comments.
-6. Edit user's favourite cookbook that was posted previously.
-7. Delete user's favourite cookbook that was posted previously.
-8. Change the website permissions for a user.
+1. Create and publish a new Post.
+2. Create a new user, recipes, author and categories.
+3. Delete user, recipes, author, categories and comments.
+4. Delete user's comments.
+5. Edit user's posts.
+6. Change the website permissions for a user.
 
 ### Agile Methodology
 
@@ -130,71 +48,44 @@ All functionality and development of this project were managed using GitHub whic
 
 #### Main Site Goals
 
-* To provide users with a good experience when using the food recipes website.
-* To provide users with a visually pleasing website that is intuitive to use and easy to navigate.
+* To provide users with a good experience when using the travel blog page.
+* To provide users with a visually pleasing website that is intuitive to use and easy to navigate, with a fixed navbar.
 * To provide a website with a clear purpose.
 * To provide role-based permissions that allows user to interact with the website.
-* To provide tools that allow users to search for recipes.
 
 ## Design
-
-#### Colours
-
-![Colours Palete](./assets/readme/extras/tasty_blog_colors_palete.png)<br>
-
-* The colour scheme is kept simple by opting for a combination of white text set against the image
-background and black text against the white background. For the navbar was set as a white background
-colour that changes when the user scrolls. For a linear gradient, 3 colours were used dark
-blue, orange and purple. This gradient is also used as a search box background. To highlight
-the icons an interactive colour set of light blue was used.
-
-#### Typography
-
-* The Lato font is used as the main font for the whole project and the Kaushan font is used to
-display the word enjoy in the Post Details and About pages.
-
-#### Imagery
-
-* All the imagery is related to the recipes and website design. Only 7 images are static.
-The remaining imagery will be uploaded by the author to the database.
-
-### Wireframes
-
-Wireframes for this project can be located [here](WIREFRAMES.md)
-
-## Database Diagram
-
-![Database Diagrama](./assets/readme/extras/tasty_blog_database_diagrama_1.jpg)<br>
 
 ## Features
 
 ### Home Page
 
-![Home Page](./assets/readme/features/tasty_blog_home-page.jpg)
+![Home Page](media/images/Read-me_pics/Front-Page.jpeg)
 
-* The hero image welcomes the user with a short message advertising what the website is about. These
-are 3 carousel images with a button. When the button is pressed, it brings the user down to the highlighted recipes.<br>
+* The front page image welcomes the user with a short message advertising what the website is about.<br>
 
-### Home Page - Highlight Posts
+### Home Page - Nav Bar
 
-![Home Page - Highlight Posts](./assets/readme/features/tasty_blog_home_page_highilights-.jpg)
+![Home Page - Nav_Bar](media/images/Read-me_pics/Front-Page_Nav-Bar.jpeg)
 
-* In the highlighted posts, users can see a selection of 6 recipes. These recipes are
-chosen by the site admin by clicking the featured box in the post database.<br>
+* In the Nav Bar, when users are not logged in, you will see the ability to log in and to register along with the categories section.<br>
 
-### About Page
+### Register Page
 
-![About Page](./assets/readme/features/tasty_blog_about_page.jpg)
+![Register Page](media/images/Read-me_pics/Register_page.jpeg)
 
-* The About Page gives, users information about the Tasty Blog website. It introduces the users to the
-website. It also details the main purpose and the goal of the blog.<br>
+* The Register Page gives, users the ability to register an account for the travel blog so that they can like & share their own posts.<br>
 
-### Blog Page
+### Login Page
 
-![Blog Page](./assets/readme/features/tasty_blog_page.jpg)
+![Login Page](<media/images/Read-me_pics/Login Area.jpeg>)
 
-* On the Blog Page, users have access to the full recipes posts available on the website.
-The user can choose to see the recipe detail by clicking on the recipe card.<br>
+* On the Login Page, users that have already registered with the blog can login to access adding new categories and new posts.<br>
+
+### Categories Dropdown Menu
+
+![Category Dropdown](media/images/Read-me_pics/Categories-Dropdown.jpeg)
+
+* From the dropdown menu, none registered users can access the posts that have already been made by clicking on the category associated to the post.<br>
 
 ### Post Detail Page - Top
 
