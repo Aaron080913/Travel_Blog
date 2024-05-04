@@ -1,0 +1,1 @@
+web: gunicorn TRAVEL_BLOG.wsgi
