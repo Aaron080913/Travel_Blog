@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    
+
+<h1>Top Travel Tips & Tricks</h1>
+<br/>
+<body>
+    <br/><br/>
+    <h2>Your Go to Blog for all of things travel!<br><br>
+        All posts are written by the people that have been to the places that you are wanting to go!<br> 
+        Whether it is to look for great hotels, restaurants or excursions you will find it all here!<br> <br>
+        please make sure that you come back to make your own suggestions to help someone else on their own adventure!</h2>
+    <br/><br/>
+    
+    
+</body>
+<style>
+    h1 {
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        justify-content: center;
+        flex: auto;
+        text-align: center;
+    }
+    h2 {
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        justify-content: center;
+        flex: auto;
+        text-align: center;
+    }
+    body {
+        background-image: url('media/images/Travel_backdrop.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+<!--<ul>
+{% for post in object_list %}
+<li> <a href="{% url 'article-detail' post.pk %}">{{ post.title }}</a>
+    - <a href="{% url 'category' post.category|slugify %}" >{{ post.category }}</a>
+     - {{ post.author.first_name }}
+      {{ post.author.last_name }}
+       - {{ post.post_date }}  
+    {% if user.is_authenticated %}
+        {% if user.id == post.author.id %}
+            - <small><a href="{% url 'update_post' post.pk %}" class="btn btn-primary">Edit</a>
+            <a href="{% url 'delete_post' post.pk %}" class="btn btn-danger">Delete</a>
+        {% endif %}
+    {% endif %}
+</small><br/>
+{{ post.snippet }}
+</li>
+{% endfor %}
+</ul>!-->
+
+
+
+{% endblock %}

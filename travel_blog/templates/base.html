@@ -9,7 +9,7 @@
   <body>
     <nav class="navbar bg-primary" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="{% url 'home' %}">Travel_Blog</a>
+          <a class="navbar-brand" href="{% url 'home' %}">Top Travel Tips & Tricks</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -26,6 +26,7 @@
                   <a class="dropdown-item" href="{% url 'category' item|slugify %}">{{ item }}</a>
                   {% endfor %}                 
                </ul>
+                                
               </li>
               {% else %}
               
@@ -35,10 +36,17 @@
               {% endif %}
               {% if user.is_authenticated %}
               <li class="nav-item">
-                <a class="nav-link" href="https://8000-aaron080913-travelblog-p5szqgl3lfr.ws-eu110.gitpod.io/add_post/">Add A Post</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="{% url 'add_category' %}">Add A Category</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Posts
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="{% url 'add_post' %}">Add Post</a></li>
+                  <li><a class="dropdown-item" href="{% url 'post_view' %}">View Posts</a></li>                  
+                </ul>
               </li>
 
               <li class="nav-item dropdown">
@@ -71,7 +79,7 @@
 
               {% endif %}
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="https://8000-aaron080913-travelblog-p5szqgl3lfr.ws-eu110.gitpod.io/">Home</a>
+                <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
               </li>
              
            

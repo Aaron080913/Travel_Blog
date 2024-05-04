@@ -7,13 +7,10 @@ from ckeditor.fields import RichTextField
 
 class Category(models.Model):
     name = models.CharField(max_length=255)
-
     def __str__(self):
         return self.name
-
     def get_absolute_url(self):
-        #return reverse('article-detail', args=(str(self.id))    )
-         return reverse('home')    
+        return reverse('home')    
 
 class Profile(models.Model):
     user = models.OneToOneField(User, null=True, on_delete=models.CASCADE)
@@ -36,7 +33,7 @@ class Post(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     body = RichTextField(blank=True, null=True)
     post_date = models.DateField(auto_now_add=True)
-    category = models.CharField(max_length=255, default='Top Travel Locations')
+    category = models.CharField(max_length=255)
     snippet = models.CharField(max_length=255)
     likes = models.ManyToManyField(User, related_name='blog_posts')
 
