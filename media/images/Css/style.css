@@ -1,6 +1,5 @@
 h1 {
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     justify-content: center;
@@ -9,7 +8,6 @@ h1 {
 }
 h2 {
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     justify-content: center;
