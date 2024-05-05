@@ -24,16 +24,16 @@
                 </a>
                 <ul class="dropdown-menu">
                   {% for item in cat_menu %}
-                  <ul class="dropdown-item" href="{% url 'category' item|slugify %}">{{ item }}</ul>
+                  <a class="dropdown-item" href="{% url 'category' item|slugify %}">{{ item }}</a>
                   {% endfor %}                 
                 </ul>
                                 
               </li>
               {% else %}
               
-                <li class="nav-item">
-                  <a class="nav-link" href="{% url 'category-list' %}">Categories</a>
-                </li>
+                <ul class="nav-item">
+                  <li><a class="nav-link" href="{% url 'category-list' %}">Categories</a></li>
+                </ul>
               {% endif %}
               {% if user.is_authenticated %}
               <li class="nav-item">
