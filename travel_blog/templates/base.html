@@ -24,7 +24,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   {% for item in cat_menu %}
-                  <a class="dropdown-item" href="{% url 'category' item|slugify %}">{{ item }}</a>
+                  <li><a class="dropdown-item" href="{% url 'category' item|slugify %}">{{ item }}</a></li>
                   {% endfor %}                 
                 </ul>
                                 
@@ -32,7 +32,7 @@
               {% else %}
               
                 <ul class="nav-item">
-                  <li><a class="nav-link" href="{% url 'category-list' %}">Categories</a></li>
+                  <a class="nav-link" href="{% url 'category-list' %}">Categories</a>
                 </ul>
               {% endif %}
               {% if user.is_authenticated %}
