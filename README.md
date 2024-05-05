@@ -151,6 +151,8 @@ and upload or update their user image and details.
 ### Testing
 
 ![Lighthouse](media/images/Read-me_pics/Lighthouse.jpeg)
+![HTML](<media/images/Read-me_pics/HTML Validator.jpeg>)
+![CSS](<media/images/Read-me_pics/Css Validation.jpeg>)
 
 ## Credits
 
