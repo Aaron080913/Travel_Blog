@@ -39,12 +39,6 @@ and upload or update their user image and details.
 5. Edit user's posts.
 6. Change the website permissions for a user.
 
-### Agile Methodology
-
-All functionality and development of this project were managed using GitHub which Projects can be found
-[here](https://github.com/PedroCristo/portfolio_project_4/issues)
-
-### The Scope
 
 #### Main Site Goals
 
@@ -172,8 +166,8 @@ All functionality and development of this project were managed using GitHub whic
 
 ### Information Sources / Resources
 
-* [code.my](https://codemy.com/)
-* [Stack Overflow](https://stackoverflow.com/)
+* [code.my](https://codemy.com/) followed a guide on creating a blog as a base template.
+* [Stack Overflow](https://stackoverflow.com/) used some ideas from this website to help to finalise my blog.
 
 
 
