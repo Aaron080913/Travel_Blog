@@ -73,13 +73,13 @@ All functionality and development of this project were managed using GitHub whic
 
 ![Register Page](media/images/Read-me_pics/Register_page.jpeg)
 
-* The Register Page gives, users the ability to register an account for the travel blog so that they can like & share their own posts.<br>
+* The Register Page gives, users the ability to register an account for the travel blog so that they can like & share their own posts, if users have clicked on the incorrect link they can instead go to the log in page.<br>
 
 ### Login Page
 
 ![Login Page](<media/images/Read-me_pics/Login Area.jpeg>)
 
-* On the Login Page, users that have already registered with the blog can login to access adding new categories and new posts.<br>
+* On the Login Page, users that have already registered with the blog can login to access adding new categories and new posts, or if the user has not registerd. Their is a link taking the user to the registration page.<br>
 
 ### Categories Dropdown Menu
 
@@ -152,11 +152,11 @@ All functionality and development of this project were managed using GitHub whic
 
 ![Profiles View](media/images/Read-me_pics/User_Profile.jpeg)
 
-* This lets you View your Profile.![Lighthouse](media/images/Read-me_pics/Lighthouse.jpeg)
+* This lets you View your Profile.
 
 ### Testing
 
-Testing results [here](TESTING.md)
+![Lighthouse](media/images/Read-me_pics/Lighthouse.jpeg)
 
 ## Credits
 

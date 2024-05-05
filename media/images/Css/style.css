@@ -1,0 +1,23 @@
+h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    justify-content: center;
+    flex: auto;
+    text-align: center;
+}
+h2 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    justify-content: center;
+    flex: auto;
+    text-align: center;
+}
+body {
+    background-image: url('media/images/Travel_backdrop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
